@@ -13,7 +13,7 @@ export default function SchoolOverview() {
         <div>
           <div className="flex flex-col w-full leading-tight text-center max-md:max-w-full">
             <div className="w-full text-xl font-bold text-amber-300 uppercase px-[559px] max-md:px-5 max-md:max-w-full">
-              Divine Love Secondary School
+              Ideal College Enugu
             </div>
             <div className="pb-px mt-7 w-full text-5xl font-medium text-gray-800 px-[623px] max-md:px-5 max-md:max-w-full max-md:text-4xl">
               Head of Staff
@@ -43,7 +43,7 @@ export const ExcellenceSection: React.FC = () => {
       </div>
       <div className="flex flex-col mt-11 text-base leading-loose max-md:mt-10 max-md:max-w-full">
         <div className="max-md:max-w-full">
-          Divine Love Secondary School is noted for her belief in excellence.
+          Ideal College is noted for her belief in excellence.
           The aspiration of the school management is not less than excellence.
           Here we ensure that nothing short of the best, in academics and high
           moral standard is given to our students. This Philosophy of life has

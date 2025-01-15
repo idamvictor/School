@@ -19,7 +19,7 @@ function IdentityCard() {
         Mission
       </div>
       <div>
-        In Divine Love Secondary School emphasis on academic excellence, hard
+        In Ideal College emphasis on academic excellence, hard
         work, discipline, conduct, comportment, moral and spiritual education,
         love for God and neighbour remain our hall mark. Hence the reasons for
         the choice of the attributes involved in our motto thus: &apos;Knowledge,

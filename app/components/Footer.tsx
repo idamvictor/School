@@ -29,7 +29,7 @@ function AboutUs() {
           alt="Location icon"
           className="object-contain shrink-0 self-start w-4 aspect-square"
         />
-        <div className="basis-auto">Divine Love Secondary School,</div>
+        <div className="basis-auto">Ideal College Enugu,</div>
       </div>
       <div className="mt-2.5">54/56 Jim Nwobodo Avenue Trans Ekulu</div>
       <div className="mt-3.5">Enugu, Enugu State.</div>
@@ -51,7 +51,7 @@ function AboutUs() {
           alt="Email icon"
           className="object-contain shrink-0 w-4 aspect-square"
         />
-        <div className="basis-auto">info@divineloveschool.com</div>
+        <div className="basis-auto">info@odealcollegeenugu.com</div>
       </div>
     </div>
   );
