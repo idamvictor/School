@@ -27,7 +27,7 @@ function ExcellenceSection() {
                 DLSS is a co-educational institution that came into existence
               </div>
               <div className="max-md:max-w-full">
-                through a divine injunction to foster excellence in character
+                through a Ideal injunction to foster excellence in character
                 and
               </div>
               <div className="max-md:max-w-full">
