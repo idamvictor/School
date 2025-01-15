@@ -3,7 +3,7 @@
 export default function HeroSection() {
   return (
     <Hero
-      title="Welcome to Ideal College Enugu!"
+      title="Welcome to Mordern Ideal College Enugu!"
       ctaText="Learn more about us"
     />
   );

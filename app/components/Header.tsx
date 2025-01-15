@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
   return (
@@ -22,15 +23,17 @@ export function Navigation() {
     <div className="flex flex-wrap gap-5 justify-between items-center w-full max-md:max-w-full">
       <Link href="/" className="flex gap-1 self-stretch my-auto">
         <div className="flex flex-col justify-center py-1.5">
-          <img
+          <Image
             loading="lazy"
-            src="https://cdn.builder.io/api/v1/image/assets/TEMP/70d08599a7bdd7ee263faf4384e69d77be83a90a447d67e5bacba54e51847d92?placeholderIfAbsent=true&apiKey=0870971d7a7c478f9d3167cb07406bc3"
-            alt="Ideal College Enugu Logo"
+            src="/logo.png"
+            alt="Mordern Ideal College Enugu Logo"
             className="object-contain aspect-[0.94] w-[45px]"
+            height={45}
+            width={45}
           />
         </div>
         <div className="my-auto text-lg leading-none text-white">
-          Ideal College Enugu
+          Mordern Ideal College Enugu
         </div>
       </Link>
       <div className="flex gap-10 self-stretch text-base text-white leading-[80px]">

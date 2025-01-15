@@ -19,8 +19,8 @@ export const schoolFeatures: FeatureCardProps[] = [
     title: "Academic Excellence",
     description: [
       "Academic excellence is one of our core values at",
-      "ideal college. Over the years",
-      "students of Ideal college, under",
+      "Mordern ideal college. Over the years",
+      "students of Mordern Ideal college, under",
       "the tutelage of qualified and experienced",
       "teachers, have carved a niche for themselves in",
       "the history of academic excellence in Enugu",
@@ -63,7 +63,7 @@ export const schoolFeatures: FeatureCardProps[] = [
     icon: "https://cdn.builder.io/api/v1/image/assets/TEMP/86b8f06f42116ceaa3b9f987b2e2c742ba1207165bc661d5e55b9335e7b6f692?placeholderIfAbsent=true&apiKey=0870971d7a7c478f9d3167cb07406bc3",
     title: "Health Care",
     description: [
-      "Here at  Ideal College, we are",
+      "Here at Mordern Ideal College, we are",
       "dedicated to the physical wellbeing of our staff",
       "and students. The School boasts of a health care",
       "service that is second to none with a clinic",

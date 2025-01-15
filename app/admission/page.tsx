@@ -9,7 +9,7 @@ export default function page() {
           <div>
             <h1>Admission Requirements</h1>
             <p>
-              Thanks for your interest in getting admitted to Ideal college Enugu. We have made our admission process easy for you.
+              Thanks for your interest in getting admitted to Modern Ideal college Enugu. We have made our admission process easy for you.
               Just follow the processes below and we shall happily await for
               your admission into our school.
             </p>
