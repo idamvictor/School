@@ -107,8 +107,8 @@ export default function Header() {
 
 const navigationItems = [
   { label: "About", path: "/about" },
-  { label: "Students", path: "/students" },
-  { label: "Staff Login", path: "/staff-login" },
+  { label: "Students", path: "/admission" },
+  { label: "Staff Login", path: "/staff" },
   { label: "Updates", path: "/updates" },
   { label: "Contact", path: "/contact" },
 ];
