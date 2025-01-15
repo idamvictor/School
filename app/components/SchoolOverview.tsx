@@ -3,7 +3,7 @@ import React from "react";
 export default function SchoolOverview() {
   return (
     <div className="bg-white">
-      <div className='container mx-auto'>
+      <div className="container mx-auto">
         <div className="flex items-center justify-around">
           <div className="w-[500px] h-[350px] bg-gray-400" />
           <ExcellenceSection />
@@ -13,7 +13,7 @@ export default function SchoolOverview() {
         <div>
           <div className="flex flex-col w-full leading-tight text-center max-md:max-w-full">
             <div className="w-full text-xl font-bold text-amber-300 uppercase px-[559px] max-md:px-5 max-md:max-w-full">
-              Ideal College Enugu
+              Mordern Ideal College Enugu
             </div>
             <div className="pb-px mt-7 w-full text-5xl font-medium text-gray-800 px-[623px] max-md:px-5 max-md:max-w-full max-md:text-4xl">
               Head of Staff
@@ -43,14 +43,14 @@ export const ExcellenceSection: React.FC = () => {
       </div>
       <div className="flex flex-col mt-11 text-base leading-loose max-md:mt-10 max-md:max-w-full">
         <div className="max-md:max-w-full">
-          Ideal College is noted for her belief in excellence.
-          The aspiration of the school management is not less than excellence.
-          Here we ensure that nothing short of the best, in academics and high
-          moral standard is given to our students. This Philosophy of life has
-          led to the increase in the number of our students and maximum
-          productivity made manifest in the excellent results of the students in
-          external examinations. Our statistics shows that we have more than
-          three hundred (300) students in enrolment.
+          Mordern Ideal College is noted for her belief in excellence. The
+          aspiration of the school management is not less than excellence. Here
+          we ensure that nothing short of the best, in academics and high moral
+          standard is given to our students. This Philosophy of life has led to
+          the increase in the number of our students and maximum productivity
+          made manifest in the excellent results of the students in external
+          examinations. Our statistics shows that we have more than three
+          hundred (300) students in enrolment.
         </div>
       </div>
       <button className="self-start px-14 py-3 mt-11 text-base font-medium leading-10 text-center uppercase bg-white rounded border-2 border-solid border-zinc-200 max-md:px-5 max-md:mt-10">

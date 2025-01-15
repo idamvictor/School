@@ -12,7 +12,7 @@ const activities = [
     title: "Chemistry Practicals",
     description: [
       "A snapshot of the students diligently at",
-      "work during a chemistry practical. Ideal",
+      "work during a chemistry practical. Modern Ideal",
       "College boast of a highly and well equppied",
       "laboratory for students to carry out",
       "experiments",
