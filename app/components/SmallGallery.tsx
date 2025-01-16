@@ -3,7 +3,7 @@ import Button from './shared/Button';
 
 export default function SmallGallery() {
   return (
-    <div className="bg-white">
+    <div className="bg-white py-[100px]">
       <div className="container mx-auto flex flex-col gap-[10]">
         <h2 className="text-5xl font-medium text-gray-800 self-center ">
           Image Gallery

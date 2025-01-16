@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Features() {
   return (
-    <div><SchoolFeatures /></div>
+    <div className='container mx-auto'><SchoolFeatures /></div>
   )
 }
 
@@ -86,7 +86,7 @@ export const schoolFeatures: FeatureCardProps[] = [
 
 function SchoolFeatures () {
   return (
-    <div className="flex flex-col items-center bg-gray-800 5">
+    <div className="flex flex-col items-center 5">
       <div className="grid grid-cols-3 gap-5 max-md:grid-cols-1 w-full">
         {schoolFeatures.map((feature, index) => (
           <FeatureCard key={index} {...feature} />
@@ -106,7 +106,7 @@ export const FeatureCard: React.FC<FeatureCardProps> = ({
   return (
     <div className="flex flex-col max-md:ml-0 max-md:w-full">
       <div className="flex flex-col grow pr-px pb-px text-center min-h-[441px]">
-        <div className="flex flex-col items-center px-7 pt-14 pb-12 w-full bg-gray-800 max-md:px-5">
+        <div className="flex flex-col items-center px-7 pt-14 pb-12 w-full max-md:px-5">
           <img
             loading="lazy"
             src={icon}

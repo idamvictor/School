@@ -3,7 +3,7 @@ import { CircleCheck } from "lucide-react";
 
 export default function Identity() {
   return (
-    <div className="flex container mx-auto">
+    <div className="flex container mx-auto py-[100px]">
       <IdentityCard />
       <IdentityCard />
       <IdentityCard />
