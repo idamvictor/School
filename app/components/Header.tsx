@@ -12,6 +12,7 @@ export default function Header() {
 
 const navigationItems = [
   { label: "About", path: "/about" },
+  { label: "Campus", path: "/campus" },
   { label: "Students", path: "/admission" },
   { label: "Staff Login", path: "/staff" },
   { label: "Gallery", path: "/gallery" },
@@ -36,7 +37,7 @@ export function Navigation() {
           Mordern Ideal College Enugu
         </div>
       </Link>
-      <div className="flex gap-10 self-stretch text-base text-white leading-[80px]">
+      <div className="hidden md:flex gap-10 self-stretch text-base text-white leading-[80px]">
         {navigationItems.map((item) => (
           <NavigationItem
             key={item.label}
@@ -81,7 +82,7 @@ export const ContactInfo: React.FC<ContactInfoProps> = ({
   iconSrc,
 }) => {
   return (
-    <div className="flex gap-4 items-center self-stretch px-8 py-3.5 my-auto text-base leading-relaxed text-white whitespace-nowrap border-2 border-solid border-zinc-700 max-md:px-5">
+    <div className="hidden md:flex gap-4 items-center self-stretch px-8 py-3.5 my-auto text-base leading-relaxed text-white whitespace-nowrap border-2 border-solid border-zinc-700 max-md:px-5">
       <img
         loading="lazy"
         src={iconSrc}

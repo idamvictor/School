@@ -6,6 +6,7 @@ import { Textarea } from "@/components/ui/textarea";
 import { HomeIcon, PhoneIcon, MailIcon } from "lucide-react";
 
 export default function Contact() {
+ 
   return (
     <div className="relative min-h-screen">
       {/* Background Image with Overlay */}
