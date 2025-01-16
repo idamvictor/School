@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+// import { Sidebar } from "lucide-react";
+import { SidebarTrigger } from "@/components/ui/sidebar";
 
 export default function Header() {
   return (
@@ -46,6 +48,7 @@ export function Navigation() {
           />
         ))}
       </div>
+      <SidebarTrigger className="text-white md:hidden" />
       <ContactInfo
         phoneNumber="+23408187065150"
         iconSrc="https://cdn.builder.io/api/v1/image/assets/TEMP/71e010b165592ab8d17b87b85b6c345c23b44c51ce221063b8ff084dcdb9d363?placeholderIfAbsent=true&apiKey=0870971d7a7c478f9d3167cb07406bc3"

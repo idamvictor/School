@@ -8,7 +8,7 @@ export default function Home() {
     <section>
       <div>
         <HeroSection />
-        <Excellence/>
+        <Excellence />
         <Features />
         <ActivitiesSection />
       </div>
