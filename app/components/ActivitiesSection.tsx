@@ -2,8 +2,12 @@ import React from 'react'
 
 export default function ActivitiesSection() {
   return (
-    <div><Activities /></div>
-  )
+    <div className="bg-white py-[100px]">
+      <div className='container mx-auto'>
+        <Activities />
+      </div>
+    </div>
+  );
 }
 
 

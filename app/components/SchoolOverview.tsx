@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SchoolOverview() {
   return (
-    <div className="bg-white">
+    <div className="bg-white py-[100px]">
       <div className="container mx-auto">
         <div className="flex items-center justify-around">
           <div className="w-[500px] h-[350px] bg-gray-400" />

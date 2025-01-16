@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <div className="flex container mx-auto">
+    <div className="flex container mx-auto my-[100px]">
       <AboutUs />
       <Newsletter /> 
       <QuickLinks />

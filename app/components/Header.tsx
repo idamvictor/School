@@ -14,7 +14,7 @@ const navigationItems = [
   { label: "About", path: "/about" },
   { label: "Students", path: "/admission" },
   { label: "Staff Login", path: "/staff" },
-  { label: "Updates", path: "/updates" },
+  { label: "Gallery", path: "/gallery" },
   { label: "Contact", path: "/contact" },
 ];
 

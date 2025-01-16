@@ -10,8 +10,8 @@ export default function Excellence() {
 
 function ExcellenceSection() {
   return (
-    <div>
-      <div className="flex gap-5 max-md:flex-col bg-white">
+    <div className=" bg-white py-[100px] px-[50px]">
+      <div className="flex gap-5 max-md:flex-col  container mx-auto ">
         <div className="flex flex-col w-[55%] max-md:ml-0 max-md:w-full">
           <div className="flex shrink-0 mt-4 max-w-full shadow-2xl h-[453px] w-[555px] max-md:mt-10" />
         </div>
@@ -27,8 +27,8 @@ function ExcellenceSection() {
                 DLSS is a co-educational institution that came into existence
               </div>
               <div className="max-md:max-w-full">
-                through a Mordern Ideal injunction to foster excellence in character
-                and
+                through a Mordern Ideal injunction to foster excellence in
+                character and
               </div>
               <div className="max-md:max-w-full">
                 learning. A citadel of learning open to students of all ethnic
