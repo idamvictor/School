@@ -1,7 +1,7 @@
 
 export default function AdmissionApplication() {
   return (
-    <div className="bg-white">
+    <div>
       <div className='container mx-auto text-gray-700'><AdmissionPortal /></div>
     </div>
   );
@@ -49,13 +49,13 @@ export const AdmissionPortal: React.FC = () => {
                   <div className="flex gap-1 items-start mt-4 w-full text-base font-medium leading-relaxed text-center text-white uppercase whitespace-nowrap max-md:max-w-full">
                     <button
                       type="submit"
-                      className="px-7 py-3.5 bg-gray-800 rounded border border-gray-800 border-solid max-md:px-5"
+                      className="px-7 py-3.5 bg-primary rounded  max-md:px-5"
                     >
                       Login
                     </button>
                     <button
                       type="reset"
-                      className="px-7 py-3.5 bg-gray-800 rounded border border-gray-800 border-solid max-md:px-5"
+                      className="px-7 py-3.5 bg-primary rounded  max-md:px-5"
                     >
                       Clear
                     </button>

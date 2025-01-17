@@ -67,7 +67,7 @@ export default function Contact() {
                 />
                 <Button
                   type="submit"
-                  className="bg-zinc-800 hover:bg-zinc-700 text-white px-8"
+                  className="bg-primary hover:bg-primary/70 text-primary-foreground px-8"
                 >
                   SEND MESSAGE
                 </Button>

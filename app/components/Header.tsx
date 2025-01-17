@@ -6,8 +6,10 @@ import { SidebarTrigger } from "@/components/ui/sidebar";
 
 export default function Header() {
   return (
-    <div className="container mx-auto">
-      <Navigation />
+    <div className="bg-secondary">
+      <div className="container mx-auto">
+        <Navigation />
+      </div>
     </div>
   );
 }
@@ -35,11 +37,11 @@ export function Navigation() {
             width={45}
           />
         </div>
-        <div className="my-auto text-lg leading-none text-white">
+        <div className="my-auto text-lg leading-none text-secondary-foreground hover:text-primary">
           Mordern Ideal College Enugu
         </div>
       </Link>
-      <div className="hidden md:flex gap-10 self-stretch text-base text-white leading-[80px]">
+      <div className="hidden md:flex gap-10 self-stretch text-base text-secondary-foreground leading-[80px]">
         {navigationItems.map((item) => (
           <NavigationItem
             key={item.label}
@@ -48,7 +50,7 @@ export function Navigation() {
           />
         ))}
       </div>
-      <SidebarTrigger className="text-white md:hidden" />
+      <SidebarTrigger className="text-secondary-foreground md:hidden" />
       {/* <ContactInfo
         phoneNumber="+23408187065150"
         iconSrc="https://cdn.builder.io/api/v1/image/assets/TEMP/71e010b165592ab8d17b87b85b6c345c23b44c51ce221063b8ff084dcdb9d363?placeholderIfAbsent=true&apiKey=0870971d7a7c478f9d3167cb07406bc3"
@@ -69,7 +71,7 @@ export const NavigationItem: React.FC<NavigationItemProps> = ({
   return (
     <div className="flex flex-col whitespace-nowrap min-h-[80px]">
       <Link href={path}>
-        <div className="hover:text-gray-300">{label}</div>
+        <div className="hover:text-gray-300 hover:text-primary">{label}</div>
       </Link>
     </div>
   );

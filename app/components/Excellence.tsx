@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 
 export default function ExcellenceSection() {
   return (
-    <div className="bg-white">
-      <div className=" max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-16 w-full">
+    <div>
+      <div className=" max-w-7xl my-[90px] mx-auto px-4 sm:px-6 py-8 sm:py-16 w-full">
         <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
           {/* Image Section */}
           <div className="relative">
@@ -16,14 +16,7 @@ export default function ExcellenceSection() {
                 height={400}
                 className="rounded-lg w-full"
               />
-              {/* Badge Overlay */}
-              {/* <div className="absolute bottom-4 right-4 bg-gray-900 text-yellow-400 p-4 rounded-lg">
-                <div className="text-2xl font-bold">25+</div>
-                <div className="text-sm">Years of Excellence</div>
-              </div> */}
             </div>
-            {/* Decorative dots */}
-            <div className="absolute -top-4 -left-4 w-24 h-24 bg-gray-100 rounded-lg -z-10" />
           </div>
 
           {/* Content Section */}
@@ -34,7 +27,7 @@ export default function ExcellenceSection() {
               CHARACTER & LEARNING
             </h1>
 
-            <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
+            <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
               DLSS is a co-educational institution that came into existence
               through a Ideal injunction to foster excellence in character and
               learning. A citadel of learning open to students of all ethnic
@@ -47,7 +40,10 @@ export default function ExcellenceSection() {
               generation for good...
             </p>
 
-            <Button variant="outline" className="font-medium mt-4 sm:mt-0 bg-black text-white hover:bg-white hover:text-black">
+            <Button
+              variant="outline"
+              className="font-medium mt-4 sm:mt-0 bg-primary text-primary-foreground hover:bg-white hover:text-primary/50"
+            >
               LEARN MORE ABOUT US
             </Button>
           </div>
