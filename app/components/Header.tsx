@@ -15,7 +15,7 @@ export default function Header() {
 const navigationItems = [
   { label: "About", path: "/about" },
   { label: "Campus", path: "/campus" },
-  { label: "Students", path: "/admission" },
+  { label: "Result", path: "/result" },
   { label: "Staff Login", path: "/staff" },
   { label: "Gallery", path: "/gallery" },
   { label: "Contact", path: "/contact" },
@@ -49,10 +49,10 @@ export function Navigation() {
         ))}
       </div>
       <SidebarTrigger className="text-white md:hidden" />
-      <ContactInfo
+      {/* <ContactInfo
         phoneNumber="+23408187065150"
         iconSrc="https://cdn.builder.io/api/v1/image/assets/TEMP/71e010b165592ab8d17b87b85b6c345c23b44c51ce221063b8ff084dcdb9d363?placeholderIfAbsent=true&apiKey=0870971d7a7c478f9d3167cb07406bc3"
-      />
+      /> */}
     </div>
   );
 }

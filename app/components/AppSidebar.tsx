@@ -24,8 +24,8 @@ const items = [
     icon: Inbox,
   },
   {
-    title: "Students",
-    url: "/admission",
+    title: "Result",
+    url: "/result",
     icon: Calendar,
   },
   {

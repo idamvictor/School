@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
+import Link from "next/link";
 
 export default function GallerySection() {
   return (
@@ -11,7 +12,10 @@ export default function GallerySection() {
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
           {[...Array(9)].map((_, index) => (
-            <div key={index} className="border border-gray-400 relative aspect-square">
+            <div
+              key={index}
+              className="border border-gray-400 relative aspect-square"
+            >
               <Image
                 src={`/placeholder.svg?height=400&width=400`}
                 alt={`Gallery image ${index + 1}`}
@@ -23,12 +27,14 @@ export default function GallerySection() {
         </div>
 
         <div className="text-center">
-          <Button
-            variant="secondary"
-            className="bg-gray-900 text-white hover:bg-gray-800"
-          >
-            VIEW FULL GALLERY
-          </Button>
+          <Link href="/gallery">
+            <Button
+              variant="secondary"
+              className="bg-gray-900 text-white hover:bg-gray-800"
+            >
+              VIEW FULL GALLERY
+            </Button>
+          </Link>
         </div>
       </div>
 
@@ -40,10 +46,12 @@ export default function GallerySection() {
           </p>
           <h2 className="text-3xl font-bold">Why don&apos;t you join us?</h2>
         </div>
-        <Button className="bg-gray-900 text-white hover:bg-gray-800">
-          ADMISSION!!
-          <ChevronRight className="ml-2 h-4 w-4" />
-        </Button>
+        <Link href="/contact">
+          <Button className="bg-gray-900 text-white hover:bg-gray-800">
+            ADMISSION!!
+            <ChevronRight className="ml-2 h-4 w-4" />
+          </Button>
+        </Link>
       </div>
     </div>
   );

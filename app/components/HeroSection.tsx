@@ -1,49 +1,74 @@
-// HeroSection.tsx
+"use client";
+
+import { useState, useEffect } from "react";
+import { Button } from "@/components/ui/button";
 
 export default function HeroSection() {
-  return (
-    <Hero
-      title="Welcome to Mordern Ideal College Enugu!"
-      ctaText="Learn more about us"
-    />
-  );
-}
+  const [currentSlide, setCurrentSlide] = useState(0);
 
-// Hero.tsx
+  const slides = [
+    "https://res.cloudinary.com/dyp8gtllq/image/upload/v1737079987/PAT_6910_vhrqd7.jpg",
+    "https://res.cloudinary.com/dyp8gtllq/image/upload/v1737076317/PAT_6949_bybwob.jpg",
+    "https://res.cloudinary.com/dyp8gtllq/image/upload/v1737080283/PAT_6888_wypcnh.jpg",
+  ];
 
-export function Hero({ title, ctaText }: HeroProps) {
+  useEffect(() => {
+    const timer = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % slides.length);
+    }, 5000); // Change slide every 5 seconds
+
+    return () => clearInterval(timer);
+  }, []);
+
   return (
-    <div className="flex relative bg-gray-400 gap-10 justify-center items-center font-medium text-center h-[100vh] max-md:px-5 max-md:py-24">
-      <div className="flex z-10 flex-col flex-1 px-4 w-full max-w-[1170px]">
-        <h1 className="px-9 w-full text-7xl text-yellow-400 leading-[86px] max-md:px-5 max-md:text-4xl max-md:leading-[53px]">
-          {title}
+    <div className="relative h-screen w-full overflow-hidden">
+      {/* Slides */}
+      {slides.map((slide, index) => (
+        <div
+          key={index}
+          className="absolute inset-0 h-full w-full transition-opacity duration-1000"
+          style={{
+            opacity: currentSlide === index ? 1 : 0,
+          }}
+        >
+          <div
+            className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+            style={{
+              backgroundImage: `url(${slide})`,
+            }}
+          />
+          {/* Overlay */}
+          <div className="absolute inset-0 bg-black/50" />
+        </div>
+      ))}
+
+      {/* Content */}
+      <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center">
+        <h1 className="mb-8 text-4xl font-bold text-yellow-400 md:text-6xl lg:text-7xl">
+          Welcome to Divine Love Secondary School!
         </h1>
-        <Button>{ctaText}</Button>
+        <Button
+          className="bg-yellow-400 text-black hover:bg-yellow-500"
+          size="lg"
+        >
+          LEARN MORE ABOUT US
+        </Button>
+      </div>
+
+      {/* Slide indicators */}
+      <div className="absolute bottom-8 left-1/2 z-10 flex -translate-x-1/2 gap-2">
+        {slides.map((_, index) => (
+          <button
+            key={index}
+            className={`h-2 w-2 rounded-full transition-all ${
+              currentSlide === index ? "bg-yellow-400 w-4" : "bg-white/50"
+            }`}
+            onClick={() => setCurrentSlide(index)}
+            aria-label={`Go to slide ${index + 1}`}
+          />
+        ))}
       </div>
     </div>
   );
 }
 
-// Button.tsx
-
-interface ButtonProps {
-  children: React.ReactNode;
-  onClick?: () => void;
-}
-
-export function Button({ children, onClick }: ButtonProps) {
-  return (
-    <button
-      onClick={onClick}
-      className="self-center px-9 py-3 mt-16 text-base leading-10 text-black uppercase bg-amber-300 rounded border border-amber-300 max-md:px-5 max-md:mt-10"
-    >
-      {children}
-    </button>
-  );
-}
-
-// types.ts
-export interface HeroProps {
-  title: string;
-  ctaText: string;
-}

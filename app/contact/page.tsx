@@ -21,13 +21,13 @@ export default function Contact() {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 py-16">
         {/* Navigation */}
-        <div className="flex justify-end mb-8">
+        {/* <div className="flex justify-end mb-8">
           <div className="bg-yellow-400 px-6 py-2 text-black font-medium">
             <span>HOME</span>
             <span className="mx-2">→</span>
             <span>CONTACT</span>
           </div>
-        </div>
+        </div> */}
 
         {/* Header */}
         <div className="mb-16">

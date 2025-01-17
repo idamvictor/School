@@ -15,17 +15,17 @@ export default function Footer() {
               disciplined and academic stimulating environment.
             </p>
             <address className="text-gray-300 not-italic space-y-2">
-              <p>Divine Love Secondary School,</p>
+              <p>Modern Ideal College,</p>
               <p>54/56 Jim Nwobodo Avenue Trans Ekulu</p>
               <p>Enugu, Enugu State.</p>
               <p className="mt-4">📞 +2349187065150</p>
               <p>
                 ✉️{" "}
                 <a
-                  href="mailto:info@divineloveschool.com"
+                  href="mailto:info@modernidealcollege.com"
                   className="hover:text-yellow-400 transition-colors"
                 >
-                  info@divineloveschool.com
+                  info@modernidealcollege.com
                 </a>
               </p>
             </address>

@@ -1,14 +1,26 @@
 import Link from "next/link";
 import { campuses } from "../data/campuses";
+import Image from "next/image";
 
 export default function HomePage() {
   return (
     <div className="min-h-screen flex flex-col">
       <main className="flex-grow">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
-          <h1 className="text-4xl font-bold text-center mb-12">
-            Welcome to Our University
-          </h1>
+          {/* Hero Section */}
+          <div className="relative h-[300px] w-full">
+            <Image
+              src=""
+              alt="School banner"
+              fill
+              className="object-cover brightness-50"
+              priority
+            />
+            <div className="absolute inset-0 flex items-center justify-start p-8">
+              <h1 className="text-4xl font-bold text-gray-500">Our Campus</h1>
+            </div>
+          </div>
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {campuses.map((campus) => (
               <Link
