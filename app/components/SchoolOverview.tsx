@@ -5,18 +5,16 @@ export default function SchoolStaff() {
     <div className="bg-white max-w-7xl mx-auto px-4 py-12">
       {/* Hero Section */}
       <div className="grid md:grid-cols-2 gap-8 mb-16">
-        <div className="relative">
+        <div className="flex items-center justify-center relative">
           <Image
-            src={"/placeholder.svg?height=400&width=400"}
+            src={
+              "https://res.cloudinary.com/dyp8gtllq/image/upload/v1737083489/Copy_of_PAT_6999_bqqewe.jpg"
+            }
             alt="School Staff"
             width={400}
             height={400}
             className="rounded-lg"
           />
-          <div className="absolute bottom-4 right-4 bg-gray-900 text-yellow-400 p-4 rounded-lg">
-            <div className="text-2xl font-bold">25+</div>
-            <div className="text-sm">Years of Excellence</div>
-          </div>
         </div>
 
         <div className="space-y-4">
@@ -28,8 +26,8 @@ export default function SchoolStaff() {
             1993
           </h1>
           <p className="text-gray-600">
-            Modern Ideal College is noted for her belief in excellence.
-            The aspiration of the school management is not less than excellence.
+            Modern Ideal College is noted for her belief in excellence. The
+            aspiration of the school management is not less than excellence.
             Here we ensure that nothing short of the best, in academics and high
             moral standard is given to our students. This Philosophy of life has
             led to the increase in the number of our students and maximum
@@ -53,7 +51,9 @@ export default function SchoolStaff() {
         <div className="bg-white p-6 rounded-lg shadow-lg">
           <div className="flex flex-col md:flex-row gap-6 items-center">
             <Image
-              src={"/placeholder.svg?height=200&width=200"}
+              src={
+                "https://res.cloudinary.com/dyp8gtllq/image/upload/v1737110543/Copy_of_PAT_6985_caapuh.jpg"
+              }
               alt="Staff Member"
               width={200}
               height={200}
@@ -73,7 +73,9 @@ export default function SchoolStaff() {
         <div className="bg-white p-6 rounded-lg shadow-lg">
           <div className="flex flex-col md:flex-row gap-6 items-center">
             <Image
-              src={"/placeholder.svg?height=200&width=200"}
+              src={
+                "https://res.cloudinary.com/dyp8gtllq/image/upload/v1737110651/Copy_of_PAT_6994_mzx5qy.jpg"
+              }
               alt="Staff Member"
               width={200}
               height={200}
