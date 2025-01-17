@@ -60,16 +60,16 @@ export default function ActivitiesSection() {
 
 
   return (
-    <div className="py-16 px-4 sm:px-6 lg:px-8 bg-white">
+    <div className="py-[90px] px-4 sm:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-center mb-12">Our Activities</h2>
+        <h2 className="text-3xl font-bold text-center mb-14">Our Activities</h2>
 
         {/* Academic Activities Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-14 ">
           {activities.map((activity, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg overflow-hidden shadow-lg"
+              className="rounded-lg overflow-hidden shadow-lg"
             >
               <div className="relative h-48">
                 <Image
@@ -81,17 +81,17 @@ export default function ActivitiesSection() {
               </div>
               <div className="p-6">
                 <h3 className="font-bold text-xl mb-2">{activity.title}</h3>
-                <p className="text-gray-600 text-sm">{activity.description}</p>
+                <p className="text-muted-foreground text-sm">{activity.description}</p>
               </div>
             </div>
           ))}
         </div>
 
         {/* Class Photos Grid */}
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 mt-[50px]">
           {classPhotos.map((photo, index) => (
             <div key={index} className="relative h-64 group overflow-hidden">
-              <div className="absolute inset-0 bg-yellow-400 w-12 z-10 flex flex-col items-center justify-center text-white">
+              <div className="absolute inset-0 bg-primary w-12 z-10 flex flex-col items-center justify-center text-white">
                 {/* <span className="writing-mode-vertical text-sm font-bold">
                   STUDENTS
                 </span>

@@ -55,7 +55,7 @@ function HeroSection({ campus }: { campus: Campus }) {
 
 function FeaturesSection({ features }: { features: string[] }) {
   return (
-    <section className="py-16 bg-gray-100">
+    <section className="py-16 bg-secondary">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-center mb-12">
           Campus Features
@@ -64,7 +64,7 @@ function FeaturesSection({ features }: { features: string[] }) {
           {features.map((feature, index) => (
             <li key={index} className="flex items-start">
               <svg
-                className="h-6 w-6 text-green-500 mr-2"
+                className="h-6 w-6 text-primary mr-2"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
@@ -91,7 +91,7 @@ function StatsSection({
   stats: { label: string; value: string }[];
 }) {
   return (
-    <section className="py-16 bg-blue-600 text-white">
+    <section className="py-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-bold text-center mb-12">
           Campus at a Glance

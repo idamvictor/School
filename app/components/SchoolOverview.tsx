@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function SchoolStaff() {
   return (
-    <div className="bg-white max-w-7xl mx-auto px-4 py-12">
+    <div className="max-w-7xl mx-auto px-4 py-12">
       {/* Hero Section */}
       <div className="grid md:grid-cols-2 gap-8 mb-16">
         <div className="flex items-center justify-center relative">
@@ -18,14 +18,14 @@ export default function SchoolStaff() {
         </div>
 
         <div className="space-y-4">
-          <h2 className="text-yellow-400 font-medium">
+          <h2 className="text-primary font-medium">
             Excellence in Character & Learning
           </h2>
           <h1 className="text-4xl font-bold">
             We&apos;ve been on the fight against Illiteracy and Ignorance Since
             1993
           </h1>
-          <p className="text-gray-600">
+          <p className="text-muted-foreground">
             Modern Ideal College is noted for her belief in excellence. The
             aspiration of the school management is not less than excellence.
             Here we ensure that nothing short of the best, in academics and high
@@ -40,7 +40,7 @@ export default function SchoolStaff() {
 
       {/* Head Staff Section */}
       <div className="text-center mb-12">
-        <h2 className="text-yellow-400 uppercase text-sm font-medium mb-2">
+        <h2 className="text-primary uppercase text-sm font-medium mb-2">
           MODERN IDEAL COLLEGE
         </h2>
         <h3 className="text-3xl font-bold">Head Staff</h3>
@@ -48,7 +48,7 @@ export default function SchoolStaff() {
 
       <div className="grid md:grid-cols-2 gap-8">
         {/* Staff Member 1 */}
-        <div className="bg-white p-6 rounded-lg shadow-lg">
+        <div className=" p-6 rounded-lg shadow-lg">
           <div className="flex flex-col md:flex-row gap-6 items-center">
             <Image
               src={
@@ -61,7 +61,7 @@ export default function SchoolStaff() {
             />
             <div className="space-y-4">
               <h4 className="font-bold text-xl">Margaret Eze</h4>
-              <p className="text-gray-600 italic">
+              <p className="text-muted-foreground italic">
                 &quot;A Leader with an unquenchable desire to help young
                 students become catalysts for world change.&quot;
               </p>
@@ -70,7 +70,7 @@ export default function SchoolStaff() {
         </div>
 
         {/* Staff Member 2 */}
-        <div className="bg-white p-6 rounded-lg shadow-lg">
+        <div className="p-6 rounded-lg shadow-lg">
           <div className="flex flex-col md:flex-row gap-6 items-center">
             <Image
               src={
@@ -83,7 +83,7 @@ export default function SchoolStaff() {
             />
             <div className="space-y-4">
               <h4 className="font-bold text-xl">Rev Sister Nora Ubadiniru</h4>
-              <p className="text-gray-600 italic">
+              <p className="text-muted-foreground italic">
                 &quot;A dogged administrator when it comes to handling the
                 affairs of the school and ensuring standards are followed.&quot;
               </p>

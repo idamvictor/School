@@ -45,7 +45,7 @@ export default function Gallery() {
   return (
     <div className="mx-auto max-w-7xl px-4 py-12">
       <div className="mb-8 text-center">
-        <h2 className="text-lg font-medium text-gray-600">
+        <h2 className="text-lg font-medium text-primary">
           Modern Ideal College
         </h2>
         <h3 className="text-3xl font-bold">Our Gallery</h3>

@@ -12,7 +12,7 @@ function AboutSection() {
         priority
       />
       <div className="absolute inset-0 flex items-center justify-start p-8">
-        <h1 className="text-4xl font-bold text-white">About Us</h1>
+        <h1 className="text-4xl font-bold text-primary">About Us</h1>
       </div>
     </div>
   );

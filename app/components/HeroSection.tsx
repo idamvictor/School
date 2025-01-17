@@ -44,11 +44,11 @@ export default function HeroSection() {
 
       {/* Content */}
       <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center">
-        <h1 className="mb-8 text-4xl font-bold text-yellow-400 md:text-6xl lg:text-7xl">
+        <h1 className="mb-8 text-4xl font-bold text-primary md:text-6xl lg:text-7xl">
           Welcome to Divine Love Secondary School!
         </h1>
         <Button
-          className="bg-yellow-400 text-black hover:bg-yellow-500"
+          className="bg-primary text-primary-foreground hover:bg-primary/50"
           size="lg"
         >
           LEARN MORE ABOUT US
@@ -61,7 +61,7 @@ export default function HeroSection() {
           <button
             key={index}
             className={`h-2 w-2 rounded-full transition-all ${
-              currentSlide === index ? "bg-yellow-400 w-4" : "bg-white/50"
+              currentSlide === index ? "bg-primary w-4" : "bg-white/50"
             }`}
             onClick={() => setCurrentSlide(index)}
             aria-label={`Go to slide ${index + 1}`}

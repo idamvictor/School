@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function HomePage() {
   return (
-    <div className="motion-preset-slide-right-md flex flex-col bg-white">
+    <div className="motion-preset-slide-right-md flex flex-col">
       {/* Hero Section */}
       <div className="relative h-[300px] w-full">
         <Image
@@ -15,7 +15,7 @@ export default function HomePage() {
           priority
         />
         <div className="absolute inset-0 flex items-center justify-start p-8">
-          <h1 className="text-4xl font-bold text-white">Our Campus</h1>
+          <h1 className="text-4xl font-bold text-primary">Our Campus</h1>
         </div>
       </div>
 
@@ -26,7 +26,7 @@ export default function HomePage() {
               <Link
                 key={campus.id}
                 href={`/campus/${campus.id}`}
-                className="block p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow"
+                className="block p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow"
               >
                 <Image
                   src={`${campus.imageUrl}`}
@@ -37,8 +37,8 @@ export default function HomePage() {
                   height={200}
                 />
                 <h2 className="text-2xl font-bold mb-2">{campus.name}</h2>
-                <p className="text-gray-600 mb-4">{campus.slogan}</p>
-                <span className="text-blue-600 hover:underline">
+                <p className="text-muted-foreground mb-4">{campus.slogan}</p>
+                <span className="text-primary hover:underline">
                   Learn more →
                 </span>
               </Link>
