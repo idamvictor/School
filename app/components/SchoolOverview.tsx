@@ -28,7 +28,7 @@ export default function SchoolStaff() {
             1993
           </h1>
           <p className="text-gray-600">
-            Divine Love Secondary School is noted for her belief in excellence.
+            Modern Ideal College is noted for her belief in excellence.
             The aspiration of the school management is not less than excellence.
             Here we ensure that nothing short of the best, in academics and high
             moral standard is given to our students. This Philosophy of life has
@@ -43,7 +43,7 @@ export default function SchoolStaff() {
       {/* Head Staff Section */}
       <div className="text-center mb-12">
         <h2 className="text-yellow-400 uppercase text-sm font-medium mb-2">
-          DIVINE LOVE SECONDARY SCHOOL
+          MODERN IDEAL COLLEGE
         </h2>
         <h3 className="text-3xl font-bold">Head Staff</h3>
       </div>

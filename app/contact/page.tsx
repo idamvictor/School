@@ -85,7 +85,7 @@ export default function Contact() {
                   Permanent Location.
                 </h3>
                 <p className="text-black/80">
-                  Divine Love Secondary School, 54/56 Jim Nwobodo Avenue Trans
+                  Modern Ideal College, 54/56 Jim Nwobodo Avenue Trans
                   Ekulu Enugu, Enugu State..
                 </p>
               </div>
@@ -105,7 +105,7 @@ export default function Contact() {
               <MailIcon className="w-6 h-6 text-yellow-400 mt-1" />
               <div>
                 <h3 className="text-black font-semibold mb-2">
-                  info@divineloveschool.com
+                  info@modernidealcollegel.com
                 </h3>
                 <p className="text-black/80">Send us your query anytime!</p>
               </div>

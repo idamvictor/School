@@ -27,7 +27,7 @@ export default function MissionVision() {
           <LightbulbOff className="w-12 h-12 text-yellow-400 mb-4" />
           <h2 className="text-xl font-semibold mb-4">Our Motto</h2>
           <p className="text-sm text-gray-300">
-            In Divine Love Secondary School emphasis on academic excellence,
+            In Modern Ideal college emphasis on academic excellence,
             hard work, discipline, respect, commitment, moral and spiritual
             education, love for God and neighbour remain our hall mark, hence
             the reasons for the choice of the attributes noted in our motto
@@ -43,7 +43,7 @@ export default function MissionVision() {
           <FileText className="w-12 h-12 text-blue-400 mb-4" />
           <h2 className="text-xl font-semibold mb-4">Vision</h2>
           <p className="text-sm text-gray-300">
-            Divine Love Secondary School is geared towards the training of male
+            Modern Ideal College is geared towards the training of male
             and female children of our time to become persons of integrity and
             leaders of tomorrow that our country cherishes and the world at
             large deserve.

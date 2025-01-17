@@ -35,7 +35,7 @@ export default function ExcellenceSection() {
 
           <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
             DLSS is a co-educational institution that came into existence
-            through a divine injunction to foster excellence in character and
+            through a Ideal injunction to foster excellence in character and
             learning. A citadel of learning open to students of all ethnic
             origins willing to cope with the academic, moral, cultural and other
             positive demands of the school. Hence, the school is aimed at
