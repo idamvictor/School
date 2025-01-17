@@ -10,11 +10,11 @@ export default function ExcellenceSection() {
           <div className="relative">
             <div className="relative rounded-lg shadow-xl">
               <Image
-                src="/placeholder.svg?height=600&width=800"
+                src="https://res.cloudinary.com/dyp8gtllq/image/upload/v1737080719/PAT_7034_ijzrjv.jpg"
                 alt="School Excellence"
                 width={400}
                 height={400}
-                className="rounded-lg"
+                className="rounded-lg w-full"
               />
               {/* Badge Overlay */}
               {/* <div className="absolute bottom-4 right-4 bg-gray-900 text-yellow-400 p-4 rounded-lg">
@@ -47,7 +47,7 @@ export default function ExcellenceSection() {
               generation for good...
             </p>
 
-            <Button variant="outline" className="font-medium mt-4 sm:mt-0">
+            <Button variant="outline" className="font-medium mt-4 sm:mt-0 bg-black text-white hover:bg-white hover:text-black">
               LEARN MORE ABOUT US
             </Button>
           </div>

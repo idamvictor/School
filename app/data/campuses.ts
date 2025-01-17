@@ -1,12 +1,13 @@
 export const campuses = [
   {
-    id: "main",
-    name: "Main Campus",
+    id: "Abakpa",
+    name: "Agbakpa Campus",
     slogan: "Where Tradition Meets Innovation",
     description:
       "Our flagship campus located in the heart of downtown. Features state-of-the-art facilities and a vibrant student community.",
     location: "123 Main St, Anytown, USA",
-    imageUrl: "/placeholder.svg?height=600&width=1200",
+    imageUrl:
+      "https://res.cloudinary.com/dyp8gtllq/image/upload/v1737076317/PAT_6949_bybwob.jpg",
     features: [
       "Modern lecture halls and classrooms",
       "Extensive library with over 1 million volumes",
@@ -21,13 +22,14 @@ export const campuses = [
     ],
   },
   {
-    id: "science-park",
-    name: "Science Park Campus",
+    id: "emene",
+    name: "Emene Campus",
     slogan: "Innovating for Tomorrow",
     description:
       "Dedicated to STEM programs, this campus boasts cutting-edge laboratories and research centers.",
     location: "456 Innovation Ave, Techville, USA",
-    imageUrl: "/placeholder.svg?height=600&width=1200",
+    imageUrl:
+      "https://res.cloudinary.com/dyp8gtllq/image/upload/v1737082978/Copy_of_PAT_7061_lafw6j.jpg",
     features: [
       "Advanced research laboratories",
       "Collaborative spaces for interdisciplinary projects",
@@ -42,13 +44,14 @@ export const campuses = [
     ],
   },
   {
-    id: "liberal-arts",
-    name: "Liberal Arts Campus",
+    id: "Nike",
+    name: "Nike Campus",
     slogan: "Cultivating Creativity and Critical Thinking",
     description:
       "A serene setting perfect for humanities and arts programs, featuring galleries, theaters, and expansive green spaces.",
     location: "789 Culture Blvd, Artstown, USA",
-    imageUrl: "/placeholder.svg?height=600&width=1200",
+    imageUrl:
+      "https://res.cloudinary.com/dyp8gtllq/image/upload/v1737086037/Copy_of_PAT_6952_n4wv2k.jpg",
     features: [
       "World-class performing arts center",
       "Expansive art galleries",
