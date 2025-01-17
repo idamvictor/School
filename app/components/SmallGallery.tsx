@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { ChevronRight } from "lucide-react";
 import Link from "next/link";
-// import { Gallery } from "../gallery/page";
+import { Gallery } from "../gallery/page";
 
 export default function GallerySection() {
   return (
@@ -10,7 +10,7 @@ export default function GallerySection() {
       <div className="space-y-8">
         <h2 className="text-2xl font-bold text-center">Image Gallery</h2>
 
-        {/* <Gallery /> */}
+        <Gallery />
 
         <div className="text-center">
           <Link href="/gallery">
