@@ -59,7 +59,7 @@ export default function ImageGallery() {
       </div>
 
       {/* Gallery Section */}
-      <div className="mx-auto max-w-7xl px-4 py-12">
+      {/* <div className="mx-auto max-w-7xl px-4 py-12">
         <div className="mb-8 text-center">
           <h2 className="text-lg font-medium text-gray-600">
             Modern Ideal College
@@ -80,6 +80,35 @@ export default function ImageGallery() {
             </Card>
           ))}
         </div>
+      </div> */}
+      <Gallery />
+    </div>
+  );
+}
+
+
+export function Gallery() {
+  return (
+    <div className="mx-auto max-w-7xl px-4 py-12">
+      <div className="mb-8 text-center">
+        <h2 className="text-lg font-medium text-gray-600">
+          Modern Ideal College
+        </h2>
+        <h3 className="text-3xl font-bold">Our Gallery</h3>
+      </div>
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+        {galleryPhotos.map((photo, index) => (
+          <Card key={index} className="overflow-hidden rounded-lg shadow-lg">
+            <Image
+              src={photo.url}
+              alt={photo.alt}
+              width={400}
+              height={300}
+              className="object-cover w-full h-full"
+            />
+          </Card>
+        ))}
       </div>
     </div>
   );
