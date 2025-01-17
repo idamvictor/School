@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function HomePage() {
   return (
-    <div className=" flex flex-col bg-white">
+    <div className="motion-preset-slide-right-md flex flex-col bg-white">
       {/* Hero Section */}
       <div className="relative h-[300px] w-full">
         <Image

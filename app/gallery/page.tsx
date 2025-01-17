@@ -5,7 +5,7 @@ import Gallery from "../components/Gallery";
 
 export default function ImageGallery() {
   return (
-    <div className="min-h-screen bg-white">
+    <div className="motion-preset-slide-right-md min-h-screen bg-white">
       {/* Hero Section */}
       <div className="relative h-[300px] w-full">
         <Image

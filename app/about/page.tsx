@@ -6,7 +6,7 @@ import SmallGallery from "../components/SmallGallery";
 
 export default function page() {
   return (
-    <div >
+    <div className="motion-preset-slide-right-md" >
       <About />
       <SchoolOverview />
       <Identity />

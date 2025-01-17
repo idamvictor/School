@@ -6,7 +6,7 @@ import HeroSection from "./components/HeroSection";
 export default function Home() {
   return (
     <section>
-      <div>
+      <div className="motion-preset-slide-right-md" >
         <HeroSection />
         <Excellence />
         <Features />
