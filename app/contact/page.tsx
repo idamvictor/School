@@ -9,7 +9,7 @@ import Image from "next/image";
 export default function Contact() {
  
   return (
-    <div className="relative min-h-screen">
+    <div className="motion-preset-slide-right-md relative min-h-screen">
       {/* Background Image with Overlay */}
       <div
         className="absolute inset-0 z-0"
@@ -20,7 +20,7 @@ export default function Contact() {
       />
 
       {/* Content */}
-      <div className="relative z-10 py-16">
+      <div className="relative z-10 ">
         {/* Hero Section */}
         <div className="relative h-[300px] w-full">
           <Image

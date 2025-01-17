@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function LandingPage() {
   return (
-    <div className="min-h-screen flex flex-col items-center bg-gradient-to-b from-blue-100 to-white">
+    <div className="motion-preset-slide-right-md min-h-screen flex flex-col items-center bg-gradient-to-b from-blue-100 to-white">
       {/* Hero Section */}
       <div className="relative h-[300px] w-full">
         <Image

@@ -21,7 +21,7 @@ export default async function CampusPage({
   }
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="motion-preset-slide-right-md min-h-screen flex flex-col">
       <main className="flex-grow">
         <HeroSection campus={campus} />
         <FeaturesSection features={campus.features} />
