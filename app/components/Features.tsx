@@ -49,10 +49,12 @@ export default function FeaturesGrid() {
 
   return (
     <div className="bg-secondary px-4 sm:px-6 lg:px-8 py-[90px]">
-      <h2 className="text-3xl font-bold text-center mb-12">Our Activities</h2>
+      <h2 className="text-3xl font-bold text-center mb-12 intersect:motion-preset-slide-down-lg intersect:motion-delay-500">
+        Our Activities
+      </h2>
 
-      <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3">
+      <div className="max-w-7xl mx-auto intersect:motion-preset-slide-up-lg intersect:motion-delay-1000">
+        <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3 ">
           {features.map((feature, index) => (
             <div
               key={index}

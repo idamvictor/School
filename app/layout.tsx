@@ -5,6 +5,7 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import { SidebarProvider } from "@/components/ui/sidebar";
 import { AppSidebar } from "./components/AppSidebar";
+import ObserverProvider from "@/context/ObserverProvider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -32,12 +33,14 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
         <SidebarProvider>
-          <div className="w-full">
-            <AppSidebar />
-            <Header />
-            {children}
-            <Footer />
-          </div>
+          <ObserverProvider>
+            <div className="w-full">
+              <AppSidebar />
+              <Header />
+              {children}
+              <Footer />
+            </div>
+          </ObserverProvider>
         </SidebarProvider>
       </body>
     </html>
