@@ -75,24 +75,24 @@ export const NavigationItem: React.FC<NavigationItemProps> = ({
   );
 };
 
-interface ContactInfoProps {
-  phoneNumber: string;
-  iconSrc: string;
-}
+// interface ContactInfoProps {
+//   phoneNumber: string;
+//   iconSrc: string;
+// }
 
-export const ContactInfo: React.FC<ContactInfoProps> = ({
-  phoneNumber,
-  iconSrc,
-}) => {
-  return (
-    <div className="hidden md:flex gap-4 items-center self-stretch px-8 py-3.5 my-auto text-base leading-relaxed text-white whitespace-nowrap border-2 border-solid border-zinc-700 max-md:px-5">
-      <img
-        loading="lazy"
-        src={iconSrc}
-        alt=""
-        className="object-contain shrink-0 self-stretch my-auto w-3.5 aspect-square"
-      />
-      <div className="self-stretch my-auto">{phoneNumber}</div>
-    </div>
-  );
-};
+// export const ContactInfo: React.FC<ContactInfoProps> = ({
+//   phoneNumber,
+//   iconSrc,
+// }) => {
+//   return (
+//     <div className="hidden md:flex gap-4 items-center self-stretch px-8 py-3.5 my-auto text-base leading-relaxed text-white whitespace-nowrap border-2 border-solid border-zinc-700 max-md:px-5">
+//       <img
+//         loading="lazy"
+//         src={iconSrc}
+//         alt=""
+//         className="object-contain shrink-0 self-stretch my-auto w-3.5 aspect-square"
+//       />
+//       <div className="self-stretch my-auto">{phoneNumber}</div>
+//     </div>
+//   );
+// };
