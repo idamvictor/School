@@ -1,63 +1,55 @@
-import * as React from "react";
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
-export default function Excellence() {
+export default function ExcellenceSection() {
   return (
-    <div>
-      <ExcellenceSection />
-    </div>
-  );
-}
+    <div className="bg-white">
+      <div className=" max-w-7xl mx-auto px-4 sm:px-6 py-8 sm:py-16 w-full">
+        <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
+          {/* Image Section */}
+          <div className="relative">
+            <div className="relative rounded-lg shadow-xl">
+              <Image
+                src="https://res.cloudinary.com/dyp8gtllq/image/upload/v1737080719/PAT_7034_ijzrjv.jpg"
+                alt="School Excellence"
+                width={400}
+                height={400}
+                className="rounded-lg w-full"
+              />
+              {/* Badge Overlay */}
+              {/* <div className="absolute bottom-4 right-4 bg-gray-900 text-yellow-400 p-4 rounded-lg">
+                <div className="text-2xl font-bold">25+</div>
+                <div className="text-sm">Years of Excellence</div>
+              </div> */}
+            </div>
+            {/* Decorative dots */}
+            <div className="absolute -top-4 -left-4 w-24 h-24 bg-gray-100 rounded-lg -z-10" />
+          </div>
 
-function ExcellenceSection() {
-  return (
-    <div className=" bg-white py-[100px] px-[50px]">
-      <div className="flex gap-5 max-md:flex-col  container mx-auto ">
-        <div className="flex flex-col w-[55%] max-md:ml-0 max-md:w-full">
-          <div className="flex shrink-0 mt-4 max-w-full shadow-2xl h-[453px] w-[555px] max-md:mt-10" />
-        </div>
-        <div className="flex flex-col ml-5 w-[45%] max-md:ml-0 max-md:w-full">
-          <div className="flex flex-col w-full text-gray-800 max-md:mt-10 max-md:max-w-full">
-            <div className="text-5xl font-bold leading-[58px] max-md:max-w-full max-md:text-4xl max-md:leading-[54px]">
+          {/* Content Section */}
+          <div className="space-y-6">
+            <h1 className="text-3xl md:text-4xl font-bold tracking-tight leading-tight">
               EXCELLENCE IN
               <br />
               CHARACTER & LEARNING
-            </div>
-            <div className="flex flex-col mt-11 text-base leading-loose max-md:mt-10 max-md:max-w-full">
-              <div className="max-md:max-w-full">
-                DLSS is a co-educational institution that came into existence
-              </div>
-              <div className="max-md:max-w-full">
-                through a Mordern Ideal injunction to foster excellence in
-                character and
-              </div>
-              <div className="max-md:max-w-full">
-                learning. A citadel of learning open to students of all ethnic
-                origins
-              </div>
-              <div className="max-md:max-w-full">
-                willing to cope with the academic, moral, cultural and other
-              </div>
-              <div className="max-md:max-w-full">
-                positive demands of the school. Hence, the school is aimed at
-              </div>
-              <div className="max-md:max-w-full">
-                inculcating in the students high level of discipline, ethical
-                and
-              </div>
-              <div className="max-md:max-w-full">
-                spiritual values that will enable them become desirable members
-              </div>
-              <div className="max-md:max-w-full">
-                of the society as well as future leaders who will be worthy
-              </div>
-              <div className="max-md:max-w-full">
-                instruments to be used by God to around the present generation
-              </div>
-              <div className="max-md:max-w-full">for good...</div>
-            </div>
-            <button className="self-start px-14 py-3 mt-11 text-base font-medium leading-10 text-center uppercase bg-white rounded border-2 border-solid border-zinc-200 max-md:px-5 max-md:mt-10">
-              learn more about us
-            </button>
+            </h1>
+
+            <p className="text-sm sm:text-base text-gray-600 leading-relaxed">
+              DLSS is a co-educational institution that came into existence
+              through a Ideal injunction to foster excellence in character and
+              learning. A citadel of learning open to students of all ethnic
+              origins willing to cope with the academic, moral, cultural and
+              other positive demands of the school. Hence, the school is aimed
+              at inculcating in the students high level of discipline, ethical
+              and spiritual values that will enable them become desirable
+              members of the society as well as future leaders who will be
+              worthy instruments to be used by God to around the present
+              generation for good...
+            </p>
+
+            <Button variant="outline" className="font-medium mt-4 sm:mt-0 bg-black text-white hover:bg-white hover:text-black">
+              LEARN MORE ABOUT US
+            </Button>
           </div>
         </div>
       </div>

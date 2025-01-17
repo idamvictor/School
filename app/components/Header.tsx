@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
+// import { Sidebar } from "lucide-react";
+import { SidebarTrigger } from "@/components/ui/sidebar";
 
 export default function Header() {
   return (
@@ -12,7 +14,8 @@ export default function Header() {
 
 const navigationItems = [
   { label: "About", path: "/about" },
-  { label: "Students", path: "/admission" },
+  { label: "Campus", path: "/campus" },
+  { label: "Result", path: "/result" },
   { label: "Staff Login", path: "/staff" },
   { label: "Gallery", path: "/gallery" },
   { label: "Contact", path: "/contact" },
@@ -36,7 +39,7 @@ export function Navigation() {
           Mordern Ideal College Enugu
         </div>
       </Link>
-      <div className="flex gap-10 self-stretch text-base text-white leading-[80px]">
+      <div className="hidden md:flex gap-10 self-stretch text-base text-white leading-[80px]">
         {navigationItems.map((item) => (
           <NavigationItem
             key={item.label}
@@ -45,10 +48,11 @@ export function Navigation() {
           />
         ))}
       </div>
-      <ContactInfo
+      <SidebarTrigger className="text-white md:hidden" />
+      {/* <ContactInfo
         phoneNumber="+23408187065150"
         iconSrc="https://cdn.builder.io/api/v1/image/assets/TEMP/71e010b165592ab8d17b87b85b6c345c23b44c51ce221063b8ff084dcdb9d363?placeholderIfAbsent=true&apiKey=0870971d7a7c478f9d3167cb07406bc3"
-      />
+      /> */}
     </div>
   );
 }
@@ -71,24 +75,24 @@ export const NavigationItem: React.FC<NavigationItemProps> = ({
   );
 };
 
-interface ContactInfoProps {
-  phoneNumber: string;
-  iconSrc: string;
-}
+// interface ContactInfoProps {
+//   phoneNumber: string;
+//   iconSrc: string;
+// }
 
-export const ContactInfo: React.FC<ContactInfoProps> = ({
-  phoneNumber,
-  iconSrc,
-}) => {
-  return (
-    <div className="flex gap-4 items-center self-stretch px-8 py-3.5 my-auto text-base leading-relaxed text-white whitespace-nowrap border-2 border-solid border-zinc-700 max-md:px-5">
-      <img
-        loading="lazy"
-        src={iconSrc}
-        alt=""
-        className="object-contain shrink-0 self-stretch my-auto w-3.5 aspect-square"
-      />
-      <div className="self-stretch my-auto">{phoneNumber}</div>
-    </div>
-  );
-};
+// export const ContactInfo: React.FC<ContactInfoProps> = ({
+//   phoneNumber,
+//   iconSrc,
+// }) => {
+//   return (
+//     <div className="hidden md:flex gap-4 items-center self-stretch px-8 py-3.5 my-auto text-base leading-relaxed text-white whitespace-nowrap border-2 border-solid border-zinc-700 max-md:px-5">
+//       <img
+//         loading="lazy"
+//         src={iconSrc}
+//         alt=""
+//         className="object-contain shrink-0 self-stretch my-auto w-3.5 aspect-square"
+//       />
+//       <div className="self-stretch my-auto">{phoneNumber}</div>
+//     </div>
+//   );
+// };
