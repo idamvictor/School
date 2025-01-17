@@ -8,8 +8,13 @@ export function generateStaticParams() {
   }));
 }
 
-export default function CampusPage({ params }: { params: { id: string } }) {
-  const campus = campuses.find((c) => c.id === params.id);
+export default async function CampusPage({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}) {
+  const { id } = await params;
+  const campus = campuses.find((c) => c.id === id);
 
   if (!campus) {
     notFound();
