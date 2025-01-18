@@ -15,8 +15,8 @@ export default function ImageGallery() {
           className="object-cover brightness-50"
           priority
         />
-        <div className="absolute inset-0 flex items-center justify-start p-8">
-          <h1 className="text-4xl font-bold text-white">Image Gallery</h1>
+        <div className="container mx-auto absolute inset-0 flex items-center justify-start p-8">
+          <h1 className="text-4xl font-bold text-primary">Image Gallery</h1>
         </div>
       </div>
 

@@ -14,7 +14,7 @@ export default function page() {
           className="object-cover brightness-50"
           priority
         />
-        <div className="absolute inset-0 flex items-center justify-start p-8">
+        <div className="container mx-auto absolute inset-0 flex items-center justify-start p-8">
           <h1 className="text-4xl font-bold text-primary">Staff Login</h1>
         </div>
       </div>

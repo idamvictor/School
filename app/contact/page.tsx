@@ -31,7 +31,7 @@ export default function Contact() {
             priority
           />
           <div className="absolute container mx-auto inset-0 flex items-center justify-start p-8">
-            <h1 className="text-4xl font-bold text-white">Contact Us</h1>
+            <h1 className="text-4xl font-bold text-primary">Contact Us</h1>
           </div>
         </div>
 

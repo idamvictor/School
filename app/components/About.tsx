@@ -11,7 +11,7 @@ function AboutSection() {
         className="object-cover brightness-50"
         priority
       />
-      <div className="absolute inset-0 flex items-center justify-start p-8">
+      <div className="absolute container mx-auto inset-0 flex items-center justify-start p-8">
         <h1 className="text-4xl font-bold text-primary">About Us</h1>
       </div>
     </div>
