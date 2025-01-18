@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import Link from "next/link";
 
 export default function HeroSection() {
   const [currentSlide, setCurrentSlide] = useState(0);
@@ -45,13 +46,13 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-10 flex h-full flex-col items-center justify-center px-4 text-center">
         <h1 className="mb-8 text-4xl font-bold text-primary md:text-6xl lg:text-7xl">
-          Welcome to Divine Love Secondary School!
+          Welcome to Modern Ideal College!
         </h1>
         <Button
           className="bg-primary text-primary-foreground hover:bg-primary/50"
           size="lg"
         >
-          LEARN MORE ABOUT US
+          <Link href='/about'>LEARN MORE ABOUT US</Link>
         </Button>
       </div>
 

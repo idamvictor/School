@@ -7,7 +7,7 @@ export default function ActivitiesSection() {
         "https://res.cloudinary.com/dyp8gtllq/image/upload/v1737081397/PAT_7057_qlxll1.jpg",
       title: "Chemistry Practicals",
       description:
-        "A snapshot of the students diligently at work during a chemistry practical. Divine love boast of a highly and well equipped laboratory for students to carry out experiments.",
+        "A snapshot of the students diligently at work during a chemistry practical. Modern Ideal College boast of a highly and well equipped laboratory for students to carry out experiments.",
     },
     {
       image:
