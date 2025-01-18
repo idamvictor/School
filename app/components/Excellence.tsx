@@ -28,16 +28,22 @@ export default function ExcellenceSection() {
             </h1>
 
             <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-              DLSS is a co-educational institution that came into existence
-              through a Ideal injunction to foster excellence in character and
-              learning. A citadel of learning open to students of all ethnic
-              origins willing to cope with the academic, moral, cultural and
-              other positive demands of the school. Hence, the school is aimed
-              at inculcating in the students high level of discipline, ethical
-              and spiritual values that will enable them become desirable
-              members of the society as well as future leaders who will be
-              worthy instruments to be used by God to around the present
-              generation for good...
+              Modern Ideal College is a premier educational institution located
+              in Enugu State, Nigeria, dedicated to fostering academic
+              excellence, innovation, and character development. We aim to
+              provide a world-class education that empowers students to excel in
+              their studies while instilling strong moral values to prepare them
+              for success in both their personal and professional lives.
+            </p>
+
+            <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
+              At Modern Ideal College, we offer a comprehensive curriculum that
+              blends modern educational practices with traditional values,
+              ensuring that students receive a well-rounded education. Our
+              highly qualified and experienced teachers are committed to
+              delivering quality instruction, utilizing state-of-the-art
+              resources and teaching methodologies that cater to the individual
+              needs of each student.
             </p>
 
             <Button

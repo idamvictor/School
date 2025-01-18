@@ -33,7 +33,7 @@ export default async function CampusPage({
 
 function HeroSection({ campus }: { campus: Campus }) {
   return (
-    <div className="relative h-[60vh] flex items-center justify-center text-white">
+    <div className="relative h-[60vh] flex items-center justify-center ">
       <Image
         src={campus.imageUrl || "/placeholder.svg"}
         alt={campus.name}
@@ -43,9 +43,11 @@ function HeroSection({ campus }: { campus: Campus }) {
       />
       <div className="absolute inset-0 bg-black opacity-50"></div>
       <div className="relative z-10 text-center">
-        <h1 className="text-4xl md:text-6xl font-bold mb-4">{campus.name}</h1>
-        <p className="text-xl md:text-2xl mb-8">{campus.slogan}</p>
-        <p className="text-lg md:text-xl max-w-2xl mx-auto">
+        <h1 className="text-4xl md:text-6xl font-bold mb-4 text-primary">
+          {campus.name}
+        </h1>
+        <p className="text-xl md:text-2xl mb-8 text-white">{campus.slogan}</p>
+        <p className="text-lg md:text-xl max-w-2xl mx-auto text-white">
           {campus.description}
         </p>
       </div>
