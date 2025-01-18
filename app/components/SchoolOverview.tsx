@@ -60,10 +60,11 @@ export default function SchoolStaff() {
               className="rounded-lg"
             />
             <div className="space-y-4">
-              <h4 className="font-bold text-xl">Margaret Eze</h4>
+              
               <p className="text-muted-foreground italic">
-                &quot;A Leader with an unquenchable desire to help young
-                students become catalysts for world change.&quot;
+                &quot;He is a visionary leader driven by an unwavering passion
+                to empower young students to become catalysts for global
+                transformatione.&quot;
               </p>
             </div>
           </div>
@@ -82,7 +83,7 @@ export default function SchoolStaff() {
               className="rounded-lg"
             />
             <div className="space-y-4">
-              <h4 className="font-bold text-xl">Rev Sister Nora Ubadiniru</h4>
+              
               <p className="text-muted-foreground italic">
                 &quot;A dogged administrator when it comes to handling the
                 affairs of the school and ensuring standards are followed.&quot;
