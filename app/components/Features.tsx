@@ -13,47 +13,47 @@ export default function FeaturesGrid() {
       icon: Award,
       title: "Academic Excellence",
       description:
-        "Academic excellence is one of our core values at Divine Love Secondary School. Over the years students of Divine Love Secondary School, under the tutelage of qualified and experienced teachers, have carved a niche for themselves in the history of academic excellence in Enugu state and beyond.",
+        "At Modern Ideal College , academic excellence stands as a cornerstone of our values. Guided by a team of highly qualified and experienced educators, our students have consistently distinguished themselves, establishing a legacy of unparalleled academic achievement within Enugu State and beyond.",
     },
     {
       icon: Ruler,
       title: "Specialty Science",
       description:
-        "We have world class facilities such as science and language laboratories, computer and ICT laboratory, well-equipped library, ultra-modern classrooms as well as effectively managed hostels that make learning easier.",
+        "Our state-of-the-art facilities include cutting-edge science and language laboratories, a fully equipped computer and ICT lab, a well-stocked library, modern classrooms—all designed to enhance the learning experience.",
     },
     {
       icon: Clock,
       title: "Revised Curriculum",
       description:
-        "Our curriculum is very dynamic. It is constantly revised to keep our students abreast with relevant knowledge they need to excel in an ever changing society.",
+        "Our curriculum is highly dynamic and continuously updated to ensure our students stay equipped with the knowledge and skills needed to thrive in an ever-evolving society.",
     },
     {
       icon: Puzzle,
       title: "Creativity",
       description:
-        "We are steadily committed to the continuous improvement in the creativity of our pupils. Our goal is a child centered education, for the realization of maximum self discovery and creativity.",
+        "We are dedicated to fostering continuous growth in our students' creativity. Our goal is to provide child-centered education that promotes self-discovery and maximizes creative potential.",
     },
     {
       icon: FirstAid,
       title: "Health Care",
       description:
-        "Here at Divine Love Secondary School, we are dedicated to the physical wellbeing of our staff and students. The School boasts of a health care service that is second to none with a clinic located strategically for easy access in cases of emergencies.",
+        "At Modern Ideal College, we prioritize the physical well-being of our staff and students. Our top-notch healthcare services include a strategically located clinic, ensuring swift access during emergencies.",
     },
     {
       icon: Running,
       title: "Sports",
       description:
-        "We are dedicated to fostering sporting excellence as we boast of standard sporting facilities some of which include a football pitch, students playing grounds well equipped for the pleasure of our students.",
+        "We are dedicated to fostering sporting excellence as we boast of standard sporting facilities some of which include  student playing grounds well equipped for the pleasure of our students.",
     },
   ];
 
   return (
     <div className="bg-secondary px-4 sm:px-6 lg:px-8 py-[90px]">
-      <h2 className="text-3xl font-bold text-center mb-12 intersect:motion-preset-slide-down-lg intersect:motion-delay-500">
+      <h2 className="text-3xl font-bold text-center mb-12 ">
         Our Activities
       </h2>
 
-      <div className="max-w-7xl mx-auto intersect:motion-preset-slide-up-lg intersect:motion-delay-1000">
+      <div className="max-w-7xl mx-auto ">
         <div className="grid grid-cols-1 gap-12 md:grid-cols-2 lg:grid-cols-3 ">
           {features.map((feature, index) => (
             <div

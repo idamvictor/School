@@ -98,7 +98,7 @@ function StatsSection({
         <h2 className="text-3xl font-bold text-center mb-12">
           Campus at a Glance
         </h2>
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+        <div className="grid grid-cols-2 md:grid-cols-3 gap-8 text-center">
           {stats.map((stat, index) => (
             <div key={index}>
               <p className="text-4xl font-bold mb-2">{stat.value}</p>

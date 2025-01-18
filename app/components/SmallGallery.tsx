@@ -10,7 +10,7 @@ export default function GallerySection() {
       <div className="space-y-8">
         <Gallery />
 
-        <div className="text-center intersect:motion-preset-blur-right-lg intersect:motion-delay-500">
+        <div className="text-center ">
           <Link href="/gallery">
             <Button
               variant="secondary"
@@ -23,7 +23,7 @@ export default function GallerySection() {
       </div>
 
       {/* Admission CTA Section */}
-      <div className="bg-secondary rounded-xl p-8 flex flex-col md:flex-row items-center justify-between intersect:motion-preset-blur-left-lg intersect:motion-delay-500">
+      <div className="bg-secondary rounded-xl p-8 flex flex-col md:flex-row items-center justify-between ">
         <div className="space-y-2 text-center md:text-left mb-4 md:mb-0">
           <p className="text-primary font-medium">
             OUR ADMISSION PROCESS IS VERY EASY!
