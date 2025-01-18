@@ -3,7 +3,7 @@ import React from "react";
 
 function AboutSection() {
   return (
-    <div className="relative h-[300px] w-full intersect:motion-preset-slide-right-lg intersect:motion-delay-500">
+    <div className="relative h-[300px] w-full">
       <Image
         src="https://res.cloudinary.com/dyp8gtllq/image/upload/v1737076317/PAT_6949_bybwob.jpg"
         alt="School banner"

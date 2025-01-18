@@ -65,7 +65,7 @@ export default function ActivitiesSection() {
         <h2 className="text-3xl font-bold text-center mb-14">Our Activities</h2>
 
         {/* Academic Activities Section */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-14 intersect:motion-preset-slide-right-lg intersect:motion-delay-500 ">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-14">
           {activities.map((activity, index) => (
             <div key={index} className="rounded-lg overflow-hidden shadow-lg">
               <div className="relative h-48">
@@ -87,7 +87,7 @@ export default function ActivitiesSection() {
         </div>
 
         {/* Class Photos Grid */}
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 mt-[50px] intersect:motion-preset-slide-left-lg intersect:motion-delay-500">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 mt-[50px] ">
           {classPhotos.map((photo, index) => (
             <div key={index} className="relative h-64 group overflow-hidden">
               <div className="absolute inset-0 bg-primary w-12 z-10 flex flex-col items-center justify-center text-white">
