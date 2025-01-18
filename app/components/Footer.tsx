@@ -16,9 +16,9 @@ export default function Footer() {
             </p>
             <address className=" not-italic space-y-2">
               <p>Modern Ideal College,</p>
-              <p>54/56 Jim Nwobodo Avenue Trans Ekulu</p>
+              <p>Abakpa Nike Rd, Abakpa, Enugu 400103, Enugu</p>
               <p>Enugu, Enugu State.</p>
-              <p className="mt-4">📞 +2349187065150</p>
+              <p className="mt-4">📞 +2348178877878</p>
               <p>
                 ✉️{" "}
                 <a

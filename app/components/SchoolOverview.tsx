@@ -8,7 +8,7 @@ export default function SchoolStaff() {
         <div className="flex items-center justify-center relative ">
           <Image
             src={
-              "https://res.cloudinary.com/dyp8gtllq/image/upload/v1737083489/Copy_of_PAT_6999_bqqewe.jpg"
+              "https://res.cloudinary.com/dyp8gtllq/image/upload/v1737079987/PAT_6910_vhrqd7.jpg"
             }
             alt="School Staff"
             width={400}
@@ -23,7 +23,7 @@ export default function SchoolStaff() {
           </h2>
           <h1 className="text-4xl font-bold">
             We&apos;ve been on the fight against Illiteracy and Ignorance Since
-            1993
+            1992
           </h1>
           <p className="text-muted-foreground">
             Modern Ideal College is noted for her belief in excellence. The

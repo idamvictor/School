@@ -8,7 +8,7 @@ export default function page() {
       {/* Hero Section */}
       <div className=" relative h-[300px] w-full">
         <Image
-          src="https://res.cloudinary.com/dyp8gtllq/image/upload/v1737083489/Copy_of_PAT_6999_bqqewe.jpg"
+          src="https://res.cloudinary.com/dyp8gtllq/image/upload/v1737082974/Copy_of_PAT_6910_kz1dwp.jpg"
           alt="School banner"
           fill
           className="object-cover brightness-50"

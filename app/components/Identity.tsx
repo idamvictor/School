@@ -10,14 +10,13 @@ export default function MissionVision() {
           <h2 className="text-xl font-semibold mb-4">Mission</h2>
           <ul className="space-y-3 text-sm text-muted-foreground">
             <li>
-              To lead our male and female child of our time to the path of
-              wholistic education.
+              To guide today’s young men and women toward holistic education.
             </li>
-            <li>To foster excellence in character and learning.</li>
+            <li>To promote excellence in character and academics.</li>
             <li>
-              To fulfill the obligatory educational requirements of the
-              Department of Divine Law and to make them morally and spiritually
-              productive in service to God and humanity.
+              To meet the educational standards set by the school board,
+              nurturing individuals to be morally and spiritually productive in
+              their service to God and humanity.
             </li>
           </ul>
         </div>
@@ -27,10 +26,10 @@ export default function MissionVision() {
           <LightbulbOff className="w-12 h-12 text-primary mb-4" />
           <h2 className="text-xl font-semibold mb-4">Our Motto</h2>
           <p className="text-sm text-muted-foreground">
-            In Modern Ideal college emphasis on academic excellence, hard work,
-            discipline, respect, commitment, moral and spiritual education, love
-            for God and neighbour remain our hall mark, hence the reasons for
-            the choice of the attributes noted in our motto thus:
+            At Modern Ideal College, we prioritize academic excellence, hard
+            work, discipline, respect, commitment, moral and spiritual growth,
+            and love for God and neighbor. These core values are reflected in
+            our motto:
           </p>
           <p className="mt-4 font-medium text-muted-foreground">
             &quot;Knowledge, Love and service&quot;
@@ -42,10 +41,9 @@ export default function MissionVision() {
           <FileText className="w-12 h-12 text-primary mb-4" />
           <h2 className="text-xl font-semibold mb-4">Vision</h2>
           <p className="text-sm text-muted-foreground">
-            Modern Ideal College is geared towards the training of male and
-            female children of our time to become persons of integrity and
-            leaders of tomorrow that our country cherishes and the world at
-            large deserve.
+            Modern Ideal College is dedicated to nurturing today’s young men and
+            women into individuals of integrity and future leaders who will be
+            valued by our nation and admired globally.
           </p>
         </div>
       </div>

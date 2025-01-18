@@ -28,22 +28,19 @@ export default function ExcellenceSection() {
             </h1>
 
             <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-              Modern Ideal College is a premier educational institution located
-              in Enugu State, Nigeria, dedicated to fostering academic
-              excellence, innovation, and character development. We aim to
-              provide a world-class education that empowers students to excel in
-              their studies while instilling strong moral values to prepare them
-              for success in both their personal and professional lives.
+              Since 1992, we have been steadfast in our mission to combat
+              illiteracy. At Modern Ideal College, excellence is more than a
+              goal—it’s a core belief. The school management aspires to nothing
+              less than the highest standards, ensuring our students receive
+              unparalleled academic instruction and are instilled with strong
+              moral values.
             </p>
 
             <p className="text-sm sm:text-base text-muted-foreground leading-relaxed">
-              At Modern Ideal College, we offer a comprehensive curriculum that
-              blends modern educational practices with traditional values,
-              ensuring that students receive a well-rounded education. Our
-              highly qualified and experienced teachers are committed to
-              delivering quality instruction, utilizing state-of-the-art
-              resources and teaching methodologies that cater to the individual
-              needs of each student.
+              This unwavering philosophy has driven our growth, with increasing
+              student enrollment and outstanding productivity even in
+              challenging times. Our students consistently excel in external
+              examinations, a testament to our commitment to excellence.
             </p>
 
             <Button

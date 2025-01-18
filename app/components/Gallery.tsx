@@ -7,7 +7,7 @@ const galleryPhotos = [
     alt: "Photo 1",
   },
   {
-    url: "https://res.cloudinary.com/dyp8gtllq/image/upload/v1737083489/Copy_of_PAT_6999_bqqewe.jpg",
+    url: "https://res.cloudinary.com/dyp8gtllq/image/upload/v1737079987/PAT_6910_vhrqd7.jpg",
     alt: "Photo 2",
   },
   {

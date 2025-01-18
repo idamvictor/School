@@ -16,7 +16,7 @@ export default function Header() {
 
 const navigationItems = [
   { label: "About", path: "/about" },
-  { label: "Campus", path: "/campus" },
+  { label: "Campuses", path: "/campus" },
   { label: "Result", path: "/result" },
   { label: "Staff Login", path: "/staff" },
   { label: "Gallery", path: "/gallery" },
@@ -25,20 +25,20 @@ const navigationItems = [
 
 export function Navigation() {
   return (
-    <div className="flex flex-wrap gap-5 justify-between items-center w-full max-md:max-w-full">
-      <Link href="/" className="flex gap-1 self-stretch my-auto">
+    <div className="flex flex-wrap gap-5 px-3 py-2 justify-between items-center w-full max-md:max-w-full">
+      <Link href="/" className="flex gap-2 self-stretch my-auto">
         <div className="flex flex-col justify-center py-1.5">
           <Image
             loading="lazy"
             src="/logo.png"
             alt="Mordern Ideal College Enugu Logo"
-            className="object-contain aspect-[0.94] w-[45px]"
+            className="object-contain aspect-[0.94] w-[35px] md:w-[45px]"
             height={45}
             width={45}
           />
         </div>
-        <div className="my-auto text-lg leading-none text-secondary-foreground hover:text-primary">
-          Mordern Ideal College Enugu
+        <div className="my-auto text-xl font-bold leading-none text-secondary-foreground hover:text-primary">
+          Mordern Ideal College
         </div>
       </Link>
       <div className="hidden md:flex gap-10 self-stretch text-base text-secondary-foreground leading-[80px]">

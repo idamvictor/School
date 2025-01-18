@@ -15,7 +15,7 @@ export default function HomePage() {
           priority
         />
         <div className="container mx-auto absolute inset-0 flex items-center justify-start p-8">
-          <h1 className="text-4xl font-bold text-primary">Our Campus</h1>
+          <h1 className="text-4xl font-bold text-primary">Our Campuses</h1>
         </div>
       </div>
 
