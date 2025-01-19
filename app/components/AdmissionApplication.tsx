@@ -1,3 +1,4 @@
+import Link from "next/link";
 
 export default function AdmissionApplication() {
   return (
@@ -47,12 +48,14 @@ export const AdmissionPortal: React.FC = () => {
                     <FormInput label="Serial Number" />
                   </div>
                   <div className="flex gap-1 items-start mt-4 w-full text-base font-medium leading-relaxed text-center text-white uppercase whitespace-nowrap max-md:max-w-full">
-                    <button
-                      type="submit"
-                      className="px-7 py-3.5 bg-primary rounded  max-md:px-5"
-                    >
-                      Login
-                    </button>
+                    <Link href="/soon">
+                      <button
+                        type="submit"
+                        className="px-7 py-3.5 bg-primary rounded  max-md:px-5"
+                      >
+                        Login
+                      </button>
+                    </Link>
                     <button
                       type="reset"
                       className="px-7 py-3.5 bg-primary rounded  max-md:px-5"
